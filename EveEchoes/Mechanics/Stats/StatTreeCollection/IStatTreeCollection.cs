@@ -8,7 +8,7 @@ using EveEchoes.Mechanics.Stats.StatCollection;
 
 namespace EveEchoes.Mechanics.Stats.StatTreeCollection
 {
-    internal interface IStatTreeCollection : IStatCollection
+    public interface IStatTreeCollection : IStatCollection
     {
         IEnumerable<IStatCollection> Childs { get; }
     }

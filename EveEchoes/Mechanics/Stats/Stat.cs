@@ -12,7 +12,7 @@ namespace EveEchoes.Mechanics.Stats
         public object Value { get; set; } = 1;
         public string Name { get; set; } = string.Empty;
         public string SubType { get; set; } = string.Empty;
-        public StatSumMode SumMode { get; set; } = StatSumMode.NumericSum;
+        public StatSumMode SumMode { get; set; } = StatSumMode.NumericMlt;
 
         [XmlIgnore]
         public float Numeric
